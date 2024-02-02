@@ -44,7 +44,6 @@ jobs:
     
     - uses: appleboy/ssh-action@v1.0.0
       name: Remove qualty_web container
-      if: success() || failure()
       with:
         host: ${{ secrets.PUBLIC_IP }}
         username: ${{ secrets.DEPLOY_USERNAME }}
@@ -53,6 +52,7 @@ jobs:
 
     - uses: chaplyk/docker-compose-remote-action@v1.1
       name: Docker-Stack Remote Deployment
+      if: success() || failure()
       with:
         ssh_host: ${{ secrets.PUBLIC_IP }}
         ssh_key: ${{ secrets.DEPLOY_PRIVATE_KEY }}
