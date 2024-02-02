@@ -28,4 +28,4 @@ If you are developing a production application, we recommend updating the config
 
 
 - Versions
-* 1.0.0   
+* 1.0.1 
