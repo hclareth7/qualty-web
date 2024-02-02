@@ -1,0 +1,31 @@
+.ratings-container {
+    margin-bottom: 80px;
+    &__form-section {
+        background-color: #fff;
+        height: auto;
+        width: 100%;
+        padding: 20px;
+        box-sizing: border-box;
+
+        &__table {
+            height: 250px;
+            overflow: scroll;
+            margin-top: 20px;
+        }
+        &__info {
+            margin-top: 20px;
+        }
+    }
+
+    .btn-save-ratings {
+        background-color: #03a9f4;
+        color: #fff;
+        width: 200px;
+        position: absolute;
+        bottom: 0;
+
+        &:hover {
+            background-color: #03a9f4;
+        }
+    }
+}

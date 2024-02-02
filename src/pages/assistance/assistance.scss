@@ -1,0 +1,30 @@
+.assistance-container {
+    margin-bottom: 80px;
+    &__form-section {
+        background-color: #fff;
+        width: 100%;
+        padding: 20px;
+        box-sizing: border-box;
+        margin-bottom: 100px;
+
+        &__table {
+            height: 50%;
+            margin-top: 20px;
+            width: 100%;
+        }
+
+        
+    }
+
+    .btn-save-workshop {
+        background-color: #03a9f4;
+        color: #fff;
+        width: 200px;
+        position: absolute;
+        bottom: 0;
+
+        &:hover {
+            background-color: #03a9f4;
+        }
+    }
+}

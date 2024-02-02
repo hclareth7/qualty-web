@@ -1,0 +1,16 @@
+.topbar-conintaer {
+    display: flex;
+    padding: 0 20px;
+    box-sizing: border-box;
+    box-shadow: none !important;
+    background-color: transparent !important;
+    border-radius: 0;
+    height: 70px;
+    flex-direction: row-reverse;
+    &__profile {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        cursor: pointer;
+    }
+}
